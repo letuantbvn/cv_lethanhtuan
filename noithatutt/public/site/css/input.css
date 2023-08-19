@@ -1,0 +1,393 @@
+/*search*/
+/*search*/
+#search {
+	float: left;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 500px;
+}
+
+#search #text-search {
+	background: #FFFFFF;
+	border: 1px solid #D6D5D5;
+	float: left;
+	font-size: 13px;
+	height: 32px;
+	padding-left: 5px;
+	width: 350px;
+	border-color: burlywood;
+
+}
+#search #text-search:hover{
+	border-color: #74b9ff;
+	color: #1a1b1a;
+	cursor: text;
+}
+#search #but {
+	background: url("../images/sear.png") no-repeat ;
+	border: medium none;
+	color: #FFFFFF;
+	cursor: pointer;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	width: 100px;
+}
+/*End search*/
+
+/*
+ * form
+ */
+
+.t-form {
+    color: #000000;
+    display: block;
+    font-size: 12px;
+}
+.t-form .req {
+    color: #A73939;
+    display: inline;
+    float: none;
+    margin-left: 5px;
+}
+.t-form .error {
+    color: #A73939;
+    font-size: 11px;
+}
+.t-form .error p {
+    padding-top: 2px;
+}
+.t-form .note {
+    color: #939393;
+    display: block;
+    font-size: 11px;
+    padding-top: 2px;
+}
+.t-form .input {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    color: #595959;
+    padding: 5px;
+}
+
+.t-form .input.error {
+    border: 1px solid #F68E8E;
+    box-shadow: 0 0 3px #F68E8E;
+}
+.t-form .input.focus {
+    border: 1px solid #B6DE5E;
+    box-shadow: 0 0 3px #B6DE5E;
+}
+.t-form .input:hover, .t-form .input:focus {
+    border: 1px solid #B6DE5E;
+    box-shadow: #B6DE5E;
+    color: #333333;
+}
+.t-form input.input {
+    font-size: 12px;
+    height: 25px;
+    width: 200px;
+}
+.t-form textarea.input {
+    font-size: 12px;
+    line-height: 1.5em;
+    width:400px;
+}
+
+.t-form select {
+    background:  #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #292929;
+    padding: 4px 3px;
+}
+.t-form label {
+    cursor: pointer;
+    font-weight: normal;
+}
+.t-form p {
+    margin: 0;
+    padding: 0;
+}
+.t-form input[type="submit"], .t-form input[type="reset"] {
+    margin-right: 5px;
+}
+.t-form .form-row {
+    clear: both;
+    padding: 5px 0;
+    position: relative;
+}
+.t-form .form-label {
+    display: inline;
+    float: left;
+    padding-top: 6px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 25%;
+}
+.t-form .form-item {
+    display: inline;
+    float: left;
+    position: relative;
+    width: 74%;
+}
+.t-form .form-submit {
+    display: inline;
+    float: right;
+    position: relative;
+    text-align: right;
+}
+.t-form .login
+{
+    background: #3B5998 !important;
+    border-radius: 5px;
+	border:none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px !important;
+    line-height: 40px;
+    padding: 0 20px !important;
+    width: auto !important;
+	box-shadow: 5px 5px #dfe6e9;
+}
+.t-form .register-btn
+{
+	background: #ff2b03;
+	border-radius: 5px;
+	border:none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+	font-size: 16px;
+	font-weight: bold;
+	height: 40px !important;
+	line-height: 40px;
+	padding: 0 20px !important;
+	width: auto !important;
+	box-shadow: 5px 5px #dfe6e9;
+}
+.t-form .login:hover
+{
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 5px 5px #b2bec3;
+}
+.t-form .register-btn:hover
+{
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 5px 5px #b2bec3;
+}
+
+.forgotpass:hover
+{
+	color: red;
+	cursor: pointer;
+}
+
+.remember:hover
+{
+	color: #2e8ece;
+	cursor: pointer;
+}
+.info-edit
+{
+	background: #8ea106;
+	border-radius: 5px;
+	border:none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+	font-size: 16px;
+	font-weight: bold;
+	height: 50px !important;
+	line-height: 40px;
+	padding: 0 20px !important;
+	width: auto !important;
+	margin-top: 20px;
+	box-shadow: 5px 5px #dfe6e9;
+}
+.info-edit:hover
+{
+	background: #FFB71A;
+	color: #fdfdff;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 5px 5px #b2bec3;
+}
+.contact-btn
+{
+
+	background: #454cc7;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px !important;
+	width: 200px !important;
+	text-align: center;
+	box-shadow: 5px 5px #dfe6e9;
+}
+.contact-btn:hover
+{
+	background: #ff9933;
+	color: #fdfdff;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 5px 5px #b2bec3;
+}
+.update-btn-product
+{
+	background: #e72803;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+	font-size: 16px;
+	font-weight: bold;
+	height: 40px;
+	line-height:20px;
+	padding: 0 20px !important;
+	width: auto !important;
+	text-align: center;
+	box-shadow: 5px 5px #dfe6e9;
+}
+.update-btn-product:hover
+{
+	background: #ff9933;
+	color: #fdfdff;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 5px 5px #b2bec3;
+}
+.buy-btn
+{
+	background: #27a3ff;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	line-height:20px;
+	padding: 0 20px !important;
+	width: auto !important;
+	text-align: center;
+	box-shadow: 5px 5px #b2bec3;
+}
+.buy-btn:hover
+{
+	background: #ff9933;
+	color: #fdfdff;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 5px 5px #b2bec3;
+}
+.payment-btn
+{
+	background: #6966d6;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	line-height:20px;
+	padding: 0 20px !important;
+	width: auto !important;
+	text-align: center;
+	box-shadow: 5px 5px #dfe6e9;
+}
+.payment-btn:hover
+{
+	background: #ff9933;
+	color: #fdfdff;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 5px 5px #b2bec3;
+}
+.add-cart
+{
+	background: #29a8e4;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	line-height:20px;
+	padding: 0 20px !important;
+	width: auto !important;
+	text-align: center;
+	box-shadow: 5px 5px #dfe6e9;
+}
+.add-cart:hover
+{
+	background: #ff9933;
+	color: #fdfdff;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 5px 5px #b2bec3;
+}
+.edit-info
+{
+	background: #c45ee4;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	line-height:20px;
+	padding: 0 20px !important;
+	width: auto !important;
+	text-align: center;
+	box-shadow: 5px 5px #dfe6e9;
+}
+.edit-info:hover
+{
+	background: #ff9933;
+	color: #fdfdff;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 5px 5px #b2bec3;
+}
+.search-price
+{
+	background: #b26b0d;
+	margin-right: -50px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Roboto Condensed',tahoma,sans-serif,arial;
+	font-size: 15px;
+	font-weight: bold;
+	height: 40px;
+	line-height:20px;
+	padding: 0 20px !important;
+	width: auto !important;
+	text-align: center;
+	box-shadow: 5px 5px #dfe6e9;
+}
+.search-price:hover
+{
+	background: #ff0e05;
+	color: #fdfdff;
+	cursor: pointer;
+	border-radius: 50px;
+	box-shadow: 5px 5px #b2bec3;
+}
