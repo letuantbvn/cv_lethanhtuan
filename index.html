@@ -32,6 +32,11 @@
             </div>
         </div>
     </nav>
+    <!-- Chat Zalo -->
+    <div id="zalo-chat-btn" class="zalo-chat-btn">
+        <img src="https://zalo.me/favicon.ico" alt="Chat Zalo">
+        <span>Chat với tôi</span>
+    </div>
 
     <div class="container">
         <!-- Header Section -->
@@ -407,6 +412,12 @@
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
         })();
+    </script>
+
+    <script>
+        document.getElementById('zalo-chat-btn').addEventListener('click', function() {
+            window.open('https://zalo.me/0904639896', '_blank');
+        });
     </script>
 
 </body>
