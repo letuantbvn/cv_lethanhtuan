@@ -869,7 +869,7 @@ footer {
     position: fixed;
     bottom: 150px;
     right: 30px;
-    background: #0068ff;
+    background: linear-gradient(to right, var(--primary), var(--secondary));
     color: white;
     padding: 10px 15px;
     border-radius: 30px;
