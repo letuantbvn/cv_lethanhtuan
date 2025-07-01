@@ -64,7 +64,12 @@ body {
     background: linear-gradient(to right, var(--primary), var(--secondary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+.logo img {
+    width: fit-content;
+    height: ;
 }
 
 .nav-links {
