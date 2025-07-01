@@ -69,7 +69,7 @@ body {
 
 .logo img {
     width: fit-content;
-    height: ;
+    height: auto;
 }
 
 .nav-links {
